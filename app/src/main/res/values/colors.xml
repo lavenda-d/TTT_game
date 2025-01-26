@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <!-- Primary Color -->
+    <color name="purple_500">#FF7F50</color>
+
+    <!-- Dark Primary Color -->
+    <color name="purple_700">#FF4500</color>
+
+    <!-- Accent Color -->
+    <color name="teal_200">#FF69B4</color>
+
+    <color name="beige">#F5F5DC</color> <!-- Light sandy beige -->
+    <color name="pale_blue">#B0E0E6</color> <!-- Pale blue -->
+    <color name="dark_blue">#5252F0</color> <!-- Dark blue (ocean color) -->
+    <color name="sun_yellow">#FFD700</color> <!-- Sun yellow -->
+    <color name="coral_orange">#FF7F50</color> <!-- Coral orange -->
+    <color name="gradient_start">#FF4500</color> <!-- Sunset orange -->
+    <color name="gradient_mid">#FF69B4</color> <!-- Sunset pink -->
+    <color name="gradient_end">#800080</color> <!-- Sunset purple -->
+    <color name="red">#FF0000</color>
+    <color name="golden">#EDED16</color>
+    <color name="sienna">#A0522D</color>
+
+</resources>

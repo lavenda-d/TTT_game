@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/menu3"> <!-- Beach background -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Tic Tac Toe Instructions:\n\n
+    1. The game is played on a grid of 3x3.\n\n
+    2. Players take turns placing their mark (X or O) on the grid.\n\n
+    3. The first player to get 3 of their marks in a row (horizontally, vertically, or diagonally) wins the game.\n\n
+    4. If all 9 squares are filled and no player has 3 in a row, the game is a draw.\n\n
+    5. Have fun!"
+    android:textSize="18sp" 
+    android:textColorHighlight="@color/white"
+    android:padding="16dp"
+    android:textColor="@color/white" />
+</ScrollView>

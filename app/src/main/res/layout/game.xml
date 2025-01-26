@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/game"
+    android:padding="10dp">
+
+    <!-- Play Options -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="106dp"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/buttonPlayWithAI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:text="AI Arena" />
+
+        <Button
+            android:id="@+id/buttonPlayWithFriends"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Friends Arena" />
+    </LinearLayout>
+
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="280dp"
+        android:layout_height="258dp"
+        android:layout_gravity="center"
+        android:background="@drawable/box_border"
+        android:columnCount="3"
+        android:rowCount="3">
+
+        <!-- Create 9 buttons for the cells -->
+        <Button
+            android:id="@+id/button0"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button6"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/TicTacToeButton" />
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/TicTacToeButton" />
+
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buttonReset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset Game"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
